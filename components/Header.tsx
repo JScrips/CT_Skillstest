@@ -76,14 +76,11 @@ const Header = () => {
       {/*======================= END OF NAVIGATION BAR ===================*/}
 
       {/* ===================================BEGIN HEADER SECTION=================================== */}
-      <div className="relative flex h-screen flex-col items-center justify-center overflow-hidden">
+      <div className="relative flex h-96 flex-col items-center justify-center overflow-hidden">
         <span className="relative z-30 rounded-xl text-2xl font-semibold text-black">
           We are Code<span className="text-orange-500">Forge</span>
         </span>
-        <span className="relative z-30 text-xs">
-          {' '}
-          Quick, Efficient, Smart Code.{' '}
-        </span>
+        <span className="relative z-30 text-xs"> </span>
         <div className="flex gap-6">
           <button className="relative z-30 mt-4 rounded-xl border-2 border-white bg-black p-1 text-white opacity-50 ring-2 ring-black">
             Email for a Quote!
