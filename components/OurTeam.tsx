@@ -72,7 +72,7 @@ const OurTeam = () => {
             </h1>
 
             <p className="mt-2 capitalize text-gray-500 group-hover:text-gray-300 dark:text-gray-300">
-              Engineer Manager / Lead Developer
+              Engineer Manager / Ld Dev
             </p>
 
             <div className="-mx-2 mt-3 flex">
@@ -110,11 +110,11 @@ const OurTeam = () => {
             />
 
             <h1 className="mt-4 text-2xl font-semibold capitalize text-gray-700 group-hover:text-white dark:text-white">
-              Shenendoah Thompson
+              Shey Thompson
             </h1>
 
             <p className="mt-2 capitalize text-gray-500 group-hover:text-gray-300 dark:text-gray-300">
-              Marketing Manager
+              Marketing Mngr
             </p>
 
             <div className="-mx-2 mt-3 flex">
