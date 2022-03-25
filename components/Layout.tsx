@@ -17,11 +17,14 @@ const Layout = () => {
       </Head>
 
       <Header />
-      <OurTeam />
       <BenefitContent />
+
       <Credibility />
+
       <GeneralContent />
+      <OurTeam />
       <CTA />
+
       <Footer />
     </div>
   )

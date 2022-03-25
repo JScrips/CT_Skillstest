@@ -39,7 +39,7 @@ const OurTeam = () => {
                 className="mx-2 text-gray-600 hover:text-gray-500 group-hover:text-white dark:text-gray-300 dark:hover:text-gray-300"
                 aria-label="Twitter"
               >
-                <BsTwitter />
+                <BsTwitter className="hover:text-gray-800" />
               </a>
 
               <a
@@ -47,7 +47,7 @@ const OurTeam = () => {
                 className="mx-2 text-gray-600 hover:text-gray-500 group-hover:text-white dark:text-gray-300 dark:hover:text-gray-300"
                 aria-label="LinkedIn"
               >
-                <BsLinkedin />
+                <BsLinkedin className="hover:text-gray-800" />
               </a>
 
               <a
@@ -55,7 +55,7 @@ const OurTeam = () => {
                 className="mx-2 text-gray-600 hover:text-gray-500 group-hover:text-white dark:text-gray-300 dark:hover:text-gray-300"
                 aria-label="Github"
               >
-                <BsGithub />
+                <BsGithub className="hover:text-gray-800" />
               </a>
             </div>
           </div>
@@ -81,7 +81,7 @@ const OurTeam = () => {
                 className="mx-2 text-gray-600 hover:text-gray-500 group-hover:text-white dark:text-gray-300 dark:hover:text-gray-300"
                 aria-label="Twitter"
               >
-                <BsTwitter />
+                <BsTwitter className="hover:text-gray-800" />
               </a>
 
               <a
@@ -89,7 +89,7 @@ const OurTeam = () => {
                 className="mx-2 text-gray-600 hover:text-gray-500 group-hover:text-white dark:text-gray-300 dark:hover:text-gray-300"
                 aria-label="LinkedIn"
               >
-                <BsLinkedin />
+                <BsLinkedin className="hover:text-gray-800" />
               </a>
 
               <a
@@ -97,7 +97,7 @@ const OurTeam = () => {
                 className="mx-2 text-gray-600 hover:text-gray-500 group-hover:text-white dark:text-gray-300 dark:hover:text-gray-300"
                 aria-label="Github"
               >
-                <BsGithub />
+                <BsGithub className="hover:text-gray-800" />
               </a>
             </div>
           </div>
@@ -123,7 +123,7 @@ const OurTeam = () => {
                 className="mx-2 text-gray-600 hover:text-gray-500 group-hover:text-white dark:text-gray-300 dark:hover:text-gray-300"
                 aria-label="Twitter"
               >
-                <BsTwitter />
+                <BsTwitter className="hover:text-gray-800" />
               </a>
 
               <a
@@ -131,7 +131,7 @@ const OurTeam = () => {
                 className="mx-2 text-gray-600 hover:text-gray-500 group-hover:text-white dark:text-gray-300 dark:hover:text-gray-300"
                 aria-label="LinkedIn"
               >
-                <BsLinkedin />
+                <BsLinkedin className="hover:text-gray-800" />
               </a>
 
               <a
@@ -139,7 +139,7 @@ const OurTeam = () => {
                 className="mx-2 text-gray-600 hover:text-gray-500 group-hover:text-white dark:text-gray-300 dark:hover:text-gray-300"
                 aria-label="Github"
               >
-                <BsGithub />
+                <BsGithub className="hover:text-gray-800" />
               </a>
             </div>
           </div>
@@ -165,7 +165,7 @@ const OurTeam = () => {
                 className="mx-2 text-gray-600 hover:text-gray-500 group-hover:text-white dark:text-gray-300 dark:hover:text-gray-300"
                 aria-label="Twitter"
               >
-                <BsTwitter />
+                <BsTwitter className="hover:text-gray-800" />
               </a>
 
               <a
@@ -173,7 +173,7 @@ const OurTeam = () => {
                 className="mx-2 text-gray-600 hover:text-gray-500 group-hover:text-white dark:text-gray-300 dark:hover:text-gray-300"
                 aria-label="LinkedIn"
               >
-                <BsLinkedin />
+                <BsLinkedin className="hover:text-gray-800" />
               </a>
 
               <a
@@ -181,7 +181,7 @@ const OurTeam = () => {
                 className="mx-2 text-gray-600 hover:text-gray-500 group-hover:text-white dark:text-gray-300 dark:hover:text-gray-300"
                 aria-label="Github"
               >
-                <BsGithub />
+                <BsGithub className="hover:text-gray-800" />
               </a>
             </div>
           </div>

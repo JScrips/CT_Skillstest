@@ -254,7 +254,7 @@ const Credibility = () => {
                     ></path>
                   </svg>
                 </button>
-                <div className="flex w-full flex-wrap rounded bg-white shadow">
+                <div className="flex w-full flex-wrap rounded bg-orange-400 shadow">
                   <div className="w-full border-r py-10 text-center lg:w-1/3">
                     <span className="text-5xl font-bold lg:text-6xl">5.0</span>
                     <div className="mb-6 flex justify-center text-green-600 lg:mb-12">
