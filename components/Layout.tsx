@@ -17,9 +17,8 @@ const Layout = () => {
       </Head>
 
       <Header />
-      <BenefitContent />
-
       <Credibility />
+      <BenefitContent />
 
       <GeneralContent />
       <OurTeam />
