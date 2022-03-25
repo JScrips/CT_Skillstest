@@ -11,7 +11,7 @@ const Header = () => {
   const status = isOpen ? 'block' : 'hidden'
 
   return (
-    <section id="home" className="bg-white dark:bg-gray-900">
+    <section id="home" className=" bg-gray-900">
       {/* ======================================BEGIN NAVIGATION BAR====================================  */}
       <nav className="container mx-auto bg-gray-900 p-2 lg:flex lg:items-center lg:justify-between">
         <div className="flex items-center justify-between">

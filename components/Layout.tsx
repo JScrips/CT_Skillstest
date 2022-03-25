@@ -15,15 +15,12 @@ const Layout = () => {
         <title>Codeforge Agency</title>
         <link rel="icon" href="/codeforge-favicon.ico" />
       </Head>
-
       <Header />
       <Credibility />
       <BenefitContent />
-
       <GeneralContent />
       <OurTeam />
       <CTA />
-
       <Footer />
     </div>
   )

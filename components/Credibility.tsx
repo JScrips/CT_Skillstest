@@ -1,6 +1,12 @@
 import React from 'react'
+import { useState } from 'react'
 
 const Credibility = () => {
+  const [isOpen, setIsOpen] = useState(false)
+  const toggle = () => setIsOpen(!isOpen)
+
+  const opened = isOpen ? 'block' : 'hidden'
+
   return (
     <section className="bg-gray-900">
       <div className="skew skew-top mr-for-radius"></div>
@@ -13,7 +19,7 @@ const Credibility = () => {
           <polygon fill="currentColor" points="0 10 10 0 10 10"></polygon>
         </svg>
       </div>
-      <div className="radius-for-skewed bg-orange-500 py-20">
+      <div className="radius-for-skewed bg-orange-500 py-20 px-2">
         <div className="mx-auto mt-20 max-w-screen-xl">
           <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
             <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1">
@@ -138,9 +144,14 @@ const Credibility = () => {
                     src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80"
                     alt=""
                   />
-                  <div className="absolute inset-0 rounded-lg bg-gray-900 opacity-80"></div>
-                  <div className="absolute inset-0 flex justify-center p-6">
-                    <div className="my-auto max-w-md">
+                  <div
+                    onClick={toggle}
+                    className=" absolute inset-0 rounded-lg bg-gray-900 opacity-80"
+                  ></div>
+                  <div
+                    className={`absolute inset-0 flex justify-center p-6 ${opened}`}
+                  >
+                    <div onClick={toggle} className="my-auto max-w-md">
                       <span className="font-bold text-green-600">
                         Dolor sit amet consectutar
                       </span>
@@ -190,6 +201,7 @@ const Credibility = () => {
           </div>
         </div>
 
+        {/* ========================================================Testimonials=============================================================== */}
         <section>
           <div className="skew skew-top mr-for-radius"></div>
           <div className="skew skew-top ml-for-radius">
@@ -205,7 +217,8 @@ const Credibility = () => {
             <div className="container mx-auto px-4">
               <div className="items-center justify-center md:space-x-8 lg:flex">
                 <div className="mb-10 text-center lg:hidden">
-                  <button className="mr-6 rounded-full bg-white p-4 text-green-600 shadow-md transition duration-200 hover:text-green-400 lg:mr-0">
+                  {/* LEFT BUTTON */}
+                  <button className="mr-6 rounded-full bg-orange-400 p-4 text-white shadow-md transition duration-200 hover:text-green-400 lg:mr-0">
                     <svg
                       className="h-6 w-6"
                       xmlns="http://www.w3.org/2000/svg"
@@ -221,7 +234,8 @@ const Credibility = () => {
                       ></path>
                     </svg>
                   </button>
-                  <button className="rounded-full bg-white p-4 text-green-600 shadow-md transition duration-200 hover:text-green-400">
+                  {/* RIGHT BUTTON */}
+                  <button className="rounded-full bg-orange-400 p-4 text-white shadow-md ">
                     <svg
                       className="h-6 w-6"
                       xmlns="http://www.w3.org/2000/svg"
@@ -238,7 +252,7 @@ const Credibility = () => {
                     </svg>
                   </button>
                 </div>
-                <button className="hidden rounded-full bg-white p-5 text-green-600 shadow-md transition duration-200 hover:text-green-400 lg:mr-0 lg:block">
+                <button className="hidden rounded-full bg-white p-5 text-black shadow-md transition duration-200 hover:text-green-400 lg:mr-0 lg:block">
                   <svg
                     className="h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
@@ -257,7 +271,7 @@ const Credibility = () => {
                 <div className="flex w-full flex-wrap rounded bg-orange-400 shadow">
                   <div className="w-full border-r py-10 text-center lg:w-1/3">
                     <span className="text-5xl font-bold lg:text-6xl">5.0</span>
-                    <div className="mb-6 flex justify-center text-green-600 lg:mb-12">
+                    <div className="mb-6 flex justify-center text-white lg:mb-12">
                       <svg
                         className="h-6 w-6"
                         xmlns="http://www.w3.org/2000/svg"
@@ -307,17 +321,21 @@ const Credibility = () => {
                       />
                     </div>
                   </div>
-                  <div className="w-full py-10 px-6 lg:w-2/3">
+                  {/* INNER TESTIMONIAL SLIDER */}
+
+                  <div className=" flex w-full flex-col items-center py-10 px-6 lg:w-2/3">
                     <img
-                      className="mb-10 h-10 w-10"
-                      src="atis-assets/elements/left-quote.png"
+                      className="mb-10 h-20 w-20 rounded-xl border-2 border-white"
+                      src="/TB.jpg"
                       alt=""
                     />
+
                     <p className="mb-10 text-xl leading-loose text-gray-500 lg:text-2xl">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Pellentesque et placerat metus. Morbi aliquet felis sit
                       amet erat finibus, ac condimentum ligula ornare.
                     </p>
+
                     <h4 className="font-heading text-2xl font-bold">
                       Alice Bradley
                     </h4>
