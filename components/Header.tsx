@@ -93,6 +93,7 @@ const Header = () => {
           autoPlay
           loop
           muted
+          playsInline
           className="absolute z-10 min-h-full w-auto min-w-full max-w-none"
         >
           <source src="bgvids/headervid2.mp4" className="" />
