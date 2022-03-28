@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <section id="home" className=" bg-gray-900">
       {/* ======================================BEGIN NAVIGATION BAR====================================  */}
-      <nav className="container mx-auto bg-gray-900 p-2 lg:flex lg:items-center lg:justify-between">
+      <nav className="container mx-auto bg-gray-900 p-4 lg:flex lg:items-center lg:justify-between">
         <div className="flex items-center justify-between">
           <div>
             <a
@@ -44,7 +44,7 @@ const Header = () => {
 
         {/* ==========================Mobile MENU============================= */}
         <div
-          className={` ${status} mt-4 flex gap-4 lg:-mx-6  lg:mt-0 lg:block lg:flex-row lg:space-y-0`}
+          className={` ${status} mt-4 flex  gap-4 lg:-mx-6 lg:mt-0 lg:block lg:flex-row lg:space-y-0`}
         >
           <a
             className="text-gray-700 hover:text-blue-500 hover:underline dark:text-gray-200 dark:hover:text-blue-400 lg:mx-6"
@@ -77,17 +77,8 @@ const Header = () => {
 
       {/* ===================================BEGIN HEADER SECTION=================================== */}
       <div className="relative flex h-96 flex-col items-center justify-center overflow-hidden">
-        <span className="relative z-30 rounded-xl text-2xl font-semibold text-black">
-          We are Code<span className="text-orange-500">Forge</span>
-        </span>
-        <span className="relative z-30 text-xs"> </span>
-        <div className="flex gap-6">
-          <button className="relative z-30 mt-4 rounded-xl border-2 border-white bg-black p-1 text-white opacity-50 ring-2 ring-black">
-            Email for a Quote!
-          </button>
-          <button className="relative  z-30 mt-4 flex items-center gap-2 rounded-xl border-2 border-white bg-black p-1 text-white opacity-50 ring-2 ring-black">
-            <AiOutlinePhone /> (999) 999-9999
-          </button>
+        <div className="relative z-30 rounded-xl bg-gray-500 bg-opacity-30 p-10 text-center">
+          <span className=" text-2xl font-semibold text-black">Overlay</span>
         </div>
         <video
           autoPlay

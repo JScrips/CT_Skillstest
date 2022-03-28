@@ -7,6 +7,8 @@ import CTA from './CTA'
 import Footer from './Footer'
 import Credibility from './Credibility'
 import Head from 'next/head'
+import Testimonials from './Testimonials'
+import Ourservices from './Ourservices'
 
 const Layout = () => {
   return (
@@ -15,13 +17,22 @@ const Layout = () => {
         <title>Codeforge Agency</title>
         <link rel="icon" href="/codeforge-favicon.ico" />
       </Head>
-      <Header />
-      <Credibility />
-      <BenefitContent />
-      <GeneralContent />
-      <OurTeam />
-      <CTA />
-      <Footer />
+      <body>
+        {/* header  */}
+        <Header />
+        {/*main content*/}
+        <GeneralContent />
+        <Ourservices />
+        <BenefitContent />
+        <CTA />
+        <Credibility />
+        <Testimonials />
+
+        <OurTeam />
+
+        {/*footer*/}
+        <Footer />
+      </body>
     </div>
   )
 }

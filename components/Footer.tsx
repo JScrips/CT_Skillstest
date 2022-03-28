@@ -10,11 +10,11 @@ const Footer = () => {
         href="#"
         className="text-xl font-bold text-gray-800 hover:text-gray-700 dark:text-white dark:hover:text-gray-300"
       >
-        Brand
+        CodeForge Agency
       </a>
 
-      <p className="py-2 text-gray-800 dark:text-white sm:py-0">
-        All rights reserved
+      <p className="py-2 text-sm text-gray-800 dark:text-white sm:py-0">
+        &copy; 2022 - All rights reserved
       </p>
 
       <div className="-mx-2 flex">
