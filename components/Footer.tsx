@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer
       id="bottom"
-      className="flex flex-col items-center justify-between bg-gray-800 px-6 py-4 dark:bg-gray-800 sm:flex-row"
+      className="flex flex-col items-center justify-between bg-forge-bg  px-6 py-4 sm:flex-row"
     >
       <a
         href="#"

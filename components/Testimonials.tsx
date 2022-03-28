@@ -6,11 +6,11 @@ const Testimonials = () => {
     <section className="">
       <div className="skew skew-top mr-for-radius"></div>
       <div className="skew skew-top ml-for-radius"></div>
-      <div className="radius-for-skewed bg-gray-900 py-20">
+      <div className="radius-for-skewed bg-forge-bg py-20">
         <div className="container mx-auto px-4">
           <div className="items-center justify-center md:space-x-8 lg:flex">
             {/* LEFT BUTTON FOR DESKTOP  */}
-            <button className="hidden rounded-full bg-white bg-opacity-20 p-5 text-black hover:bg-opacity-100 lg:mr-0 lg:block">
+            <button className="hidden rounded-full bg-white bg-opacity-5 p-5 text-black hover:bg-opacity-100 lg:mr-0 lg:block">
               <svg
                 className="h-6 w-6"
                 xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ const Testimonials = () => {
                 ></path>
               </svg>
             </button>
-            <div className="flex w-full flex-wrap rounded bg-white opacity-40 shadow hover:opacity-100">
+            <div className="flex w-full flex-wrap rounded bg-forge-bg opacity-40 shadow hover:opacity-100">
               <div className="w-full border-r py-10 text-center lg:w-1/3">
                 <span className="text-5xl font-bold lg:text-6xl">5.0</span>
                 <div className="mb-6 flex justify-center text-yellow-600 lg:mb-12">
@@ -118,7 +118,7 @@ const Testimonials = () => {
                 </svg>
               </button>
               {/* RIGHT BUTTON */}
-              <button className="mr-6 rounded-full bg-white bg-opacity-20 p-4 text-white shadow-md">
+              <button className="mr-6 rounded-full bg-white bg-opacity-5 p-4 text-white shadow-md">
                 <svg
                   className="h-6 w-6"
                   xmlns="http://www.w3.org/2000/svg"
@@ -138,7 +138,7 @@ const Testimonials = () => {
 
             {/* TESTIMONIAL BUTTONS FOR DESKTOP */}
 
-            <button className="hidden rounded-full bg-white bg-opacity-20 p-5  shadow-md hover:bg-opacity-100  lg:block">
+            <button className="hidden rounded-full bg-white bg-opacity-5 p-5  shadow-md hover:bg-opacity-100  lg:block">
               <svg
                 className="h-6 w-6"
                 xmlns="http://www.w3.org/2000/svg"

@@ -17,7 +17,7 @@ const Layout = () => {
         <title>Codeforge Agency</title>
         <link rel="icon" href="/codeforge-favicon.ico" />
       </Head>
-      <body>
+      <body className="bg-forge-bg">
         {/* header  */}
         <Header />
         {/*main content*/}

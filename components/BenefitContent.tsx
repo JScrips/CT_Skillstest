@@ -6,17 +6,17 @@ import { RiNumber4 } from 'react-icons/ri'
 
 const BenefitContent = () => {
   return (
-    <section id="benefit" className="bg-white dark:bg-gray-900">
+    <section id="benefit" className="bg-forge-bg text-forge-primary">
       <div className="container mx-auto px-6 py-10 text-center">
         <h2 className=" text-center text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl">
-          STRESS-FREE WEB DEVELOPMENT
+          <span className="text-forge-acc">STRESS-FREE</span> WEB DEVELOPMENT
         </h2>
         <span className="text-sm text-white">As easy as counting to 4</span>
 
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-4 xl:gap-16">
           {/* FIRST STEP */}
 
-          <div className=" flex flex-col items-center space-y-3 rounded-xl bg-gray-100 p-6 text-center dark:bg-gray-800">
+          <div className=" flex flex-col items-center space-y-3 rounded-xl bg-white bg-opacity-5 p-6 text-center">
             <span className="inline-block rounded-full bg-blue-100 p-3 text-blue-500 dark:bg-blue-500 dark:text-white">
               <RiNumber1 />
             </span>
@@ -30,12 +30,12 @@ const BenefitContent = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center space-y-3 rounded-xl bg-gray-100 p-6 text-center dark:bg-gray-800">
+          <div className="flex flex-col items-center space-y-3 rounded-xl bg-gray-100 bg-white bg-opacity-5 p-6 text-center">
             <span className="inline-block rounded-full bg-blue-100 p-3 text-blue-500 dark:bg-blue-500 dark:text-white">
               <RiNumber2 />
             </span>
 
-            <h3 className="text-2xl font-semibold capitalize text-gray-700 dark:text-white">
+            <h3 className="text-2xl font-semibold capitalize text-white">
               Proposal and Contract
             </h3>
 
@@ -44,7 +44,7 @@ const BenefitContent = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center space-y-3 rounded-xl bg-gray-100 p-6 text-center dark:bg-gray-800">
+          <div className="flex flex-col items-center space-y-3 rounded-xl bg-gray-100 bg-white bg-opacity-5 p-6 text-center">
             <span className="inline-block rounded-full bg-blue-100 p-3 text-blue-500 dark:bg-blue-500 dark:text-white">
               <RiNumber3 />
             </span>
@@ -59,7 +59,7 @@ const BenefitContent = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center space-y-3 rounded-xl bg-gray-100 p-6 text-center dark:bg-gray-800">
+          <div className="flex flex-col items-center space-y-3 rounded-xl bg-gray-100 bg-white bg-opacity-5 p-6 text-center">
             <span className="inline-block rounded-full bg-blue-100 p-3 text-blue-500 dark:bg-blue-500 dark:text-white">
               <RiNumber4 />
             </span>

@@ -8,7 +8,7 @@ const Credibility = () => {
   const opened = isOpen ? 'block' : 'hidden'
 
   return (
-    <section className="bg-gray-900">
+    <section className="bg-forge-bg">
       <div className="skew skew-top mr-for-radius"></div>
       <div className="skew skew-top ml-for-radius">
         <svg
