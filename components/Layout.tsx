@@ -9,6 +9,7 @@ import Credibility from './Credibility'
 import Head from 'next/head'
 import Testimonials from './Testimonials'
 import Ourservices from './Ourservices'
+import Contact from './Contact'
 
 const Layout = () => {
   return (
@@ -27,8 +28,7 @@ const Layout = () => {
         <CTA />
         <Credibility />
         <Testimonials />
-
-        <OurTeam />
+        <Contact />
 
         {/*footer*/}
         <Footer />

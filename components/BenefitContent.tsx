@@ -6,19 +6,21 @@ import { RiNumber4 } from 'react-icons/ri'
 
 const BenefitContent = () => {
   return (
-    <section id="benefit" className="bg-forge-bg text-forge-primary">
+    <section id="benefit" className="bg-forge-bg pb-20 text-forge-primary">
       <div className="container mx-auto px-6 py-10 text-center">
-        <h2 className=" text-center text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl">
+        <h2 className=" text-center text-3xl  capitalize text-gray-800 dark:text-white lg:text-4xl">
           <span className="text-forge-acc">STRESS-FREE</span> WEB DEVELOPMENT
         </h2>
-        <span className="text-sm text-white">As easy as counting to 4</span>
+        <span className="text-sm text-white">
+          As easy as counting to <span className="text-forge-acc">4</span>
+        </span>
 
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-4 xl:gap-16">
           {/* FIRST STEP */}
 
-          <div className=" flex flex-col items-center space-y-3 rounded-xl bg-white bg-opacity-5 p-6 text-center">
-            <span className="inline-block rounded-full bg-blue-100 p-3 text-blue-500 dark:bg-blue-500 dark:text-white">
-              <RiNumber1 />
+          <div className=" flex flex-col items-center space-y-3 rounded-xl  p-6 text-center hover:shadow-xl">
+            <span className="inline-block rounded-full  bg-forge-primary p-3">
+              <RiNumber1 className="text-forge-acc" />
             </span>
 
             <h3 className="text-2xl font-semibold capitalize text-gray-700 dark:text-white">
@@ -30,9 +32,9 @@ const BenefitContent = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center space-y-3 rounded-xl bg-gray-100 bg-white bg-opacity-5 p-6 text-center">
-            <span className="inline-block rounded-full bg-blue-100 p-3 text-blue-500 dark:bg-blue-500 dark:text-white">
-              <RiNumber2 />
+          <div className="flex flex-col items-center space-y-3 rounded-xl  p-6 text-center hover:shadow-xl">
+            <span className="inline-block rounded-full  bg-forge-primary p-3">
+              <RiNumber2 className="text-forge-acc" />
             </span>
 
             <h3 className="text-2xl font-semibold capitalize text-white">
@@ -44,9 +46,9 @@ const BenefitContent = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center space-y-3 rounded-xl bg-gray-100 bg-white bg-opacity-5 p-6 text-center">
-            <span className="inline-block rounded-full bg-blue-100 p-3 text-blue-500 dark:bg-blue-500 dark:text-white">
-              <RiNumber3 />
+          <div className="flex flex-col items-center space-y-3 rounded-xl  p-6 text-center hover:shadow-xl">
+            <span className="inline-block rounded-full  bg-forge-primary p-3">
+              <RiNumber3 className="text-forge-acc" />
             </span>
 
             <h3 className="text-2xl font-semibold capitalize text-gray-700 dark:text-white">
@@ -59,9 +61,9 @@ const BenefitContent = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center space-y-3 rounded-xl bg-gray-100 bg-white bg-opacity-5 p-6 text-center">
-            <span className="inline-block rounded-full bg-blue-100 p-3 text-blue-500 dark:bg-blue-500 dark:text-white">
-              <RiNumber4 />
+          <div className="flex flex-col items-center space-y-3 rounded-xl  p-6 text-center hover:shadow-xl">
+            <span className="inline-block rounded-full  bg-forge-primary p-3">
+              <RiNumber4 className="text-forge-acc" />
             </span>
 
             <h3 className="text-2xl font-semibold capitalize text-gray-700 dark:text-white">

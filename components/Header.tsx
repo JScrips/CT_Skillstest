@@ -32,7 +32,7 @@ const Header = () => {
               aria-label="toggle menu"
               onClick={toggle}
             >
-              <svg viewBox="0 0 24 24" className="fill-current h-6 w-6">
+              <svg viewBox="0 0 24 24" className="h-6 w-6 fill-current">
                 <path
                   fillRule="evenodd"
                   d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
@@ -77,11 +77,16 @@ const Header = () => {
 
       {/* ===================================BEGIN HEADER SECTION=================================== */}
       <div className="relative flex h-96 flex-col items-center justify-center overflow-hidden">
-        <div className="relative z-30 rounded-xl bg-forge-bg bg-opacity-30 p-10 text-center">
-          <span className="text-2xl font-semibold text-forge-primary">
-            Overlay
-          </span>
-        </div>
+        <span className="relative z-30 pb-4 text-6xl font-semibold text-forge-primary opacity-50">
+          We
+          <span className="text-forge-acc"> Iron Out</span> the{' '}
+          <span className="text-forge-acc">Kinks</span> so you don't have to
+          <span className="text-forge-acc">.</span>
+        </span>
+        <button className="relative z-30 rounded-md bg-forge-acc px-6 py-4 text-lg font-semibold text-forge-primary opacity-50 ring-1 ring-white hover:opacity-100">
+          Forge My Site
+        </button>
+
         <video
           autoPlay
           loop
