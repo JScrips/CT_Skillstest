@@ -168,9 +168,9 @@ m180 -29 c35 -68 13 -148 -41 -148 -25 0 -60 34 -50 49 7 12 46 15 43 4 -2 -5
 
         {/* ==========================Mobile MENU============================= */}
         <div
-          className={` ${status} mt-4 flex  flex-col text-forge-primary lg:-mx-6 lg:mt-0 lg:block lg:flex-row lg:space-y-0`}
+          className={` ${status} mt-4 flex flex-col text-forge-primary lg:-mx-6 lg:mt-0 lg:flex lg:space-y-0`}
         >
-          <div className="mx-auto mb-4 flex gap-4">
+          <div className="mx-auto mb-4 flex items-center gap-4">
             <a
               className="hover:text-forge-acc hover:underline lg:mx-6"
               href="#ourprocess"
@@ -197,15 +197,18 @@ m180 -29 c35 -68 13 -148 -41 -148 -25 0 -60 34 -50 49 7 12 46 15 43 4 -2 -5
               Reviews
             </a>
           </div>
-          <hr className="mb-4 border-gray-700" />
+          <hr className="mb-4 basis-full border-gray-700 lg:hidden" />
           <a
-            className="rounded-xl  bg-forge-primary p-2 text-center text-forge-acc  hover:underline focus:bg-forge-acc focus:text-forge-primary lg:mx-6"
+            className="lg:${status} basis-full  rounded-xl bg-forge-primary p-2 text-center  text-forge-acc hover:underline focus:bg-forge-acc focus:text-forge-primary lg:mx-6"
             href="#contact"
           >
             Hire Us!
           </a>
         </div>
+        {/**Desktop nav bar/ */}
       </nav>
+
+      {/*=========================DESKTOP NAV BAR ==========================*/}
 
       {/*======================= END OF NAVIGATION BAR ===================*/}
 
