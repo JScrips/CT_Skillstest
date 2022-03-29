@@ -8,8 +8,16 @@ import { GiSteampunkGoggles } from 'react-icons/gi'
 
 const Ourservices = () => {
   return (
-    <section className="overflow-hidden bg-forge-bg py-24 md:pb-28">
+    <section className="overflow-hidden bg-forge-bg py-10 md:pb-28">
       <div className="container mx-auto px-4">
+        <h2 className="pb-10 text-center ">
+          <span className="text-5xl text-forge-acc">Solution</span>{' '}
+          <span className="text-5xl text-white">Oriented</span>
+          <br />
+          <span className="text-sm text-white">
+            a plethora of <span className="text-forge-acc">benefits</span>{' '}
+          </span>
+        </h2>
         <div className="-mx-4 flex flex-wrap justify-center text-forge-primary">
           <div className="w-full px-4 md:w-1/2 lg:w-1/3">
             <div className="hover:bg-forgebg h-full rounded-md p-8 text-center transition duration-200 hover:bg-opacity-20 hover:shadow-xl">

@@ -8,7 +8,7 @@ const CTA = () => {
           <div className="mx-auto flex max-w-lg flex-col items-center text-center">
             <a
               href="#"
-              className="mt-6 inline-flex w-full items-center justify-center rounded-lg bg-white bg-opacity-10 p-8 text-white  focus:ring focus:ring-blue-300 focus:ring-opacity-80 sm:w-auto"
+              className="mt-6 inline-flex w-full items-center justify-center rounded-lg bg-white bg-opacity-10 p-8 text-white  hover:bg-forge-primary hover:text-forge-acc focus:ring focus:ring-white focus:ring-opacity-80 sm:w-auto"
             >
               Hire Us!
             </a>
@@ -16,7 +16,7 @@ const CTA = () => {
           <div className="mx-auto flex max-w-lg flex-col items-center text-center">
             <a
               href="#"
-              className="mt-6 inline-flex w-full items-center justify-center rounded-lg bg-white bg-opacity-10 p-8 text-white  focus:ring focus:ring-blue-300 focus:ring-opacity-80 sm:w-auto"
+              className="mt-6 inline-flex w-full items-center justify-center rounded-lg bg-white bg-opacity-10 p-8 text-white  hover:bg-forge-acc focus:ring focus:ring-orange-700 focus:ring-opacity-80 sm:w-auto"
             >
               Convince me more
             </a>
