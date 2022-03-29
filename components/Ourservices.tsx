@@ -17,11 +17,14 @@ const Ourservices = () => {
                 <GiBlacksmith className="text-2xl" />
               </div>
               <h3 className="mb-4 text-xl font-bold leading-tight md:text-2xl">
-                Measure your performance
+                Blazing <span className="text-forge-acc">Fast</span>
               </h3>
               <p className="text-coolGray-500 font-medium">
-                Get a complete sales dashboard in the cloud. See activity,
-                revenue and social metrics all in one place.
+                <span className="underline decoration-forge-acc">
+                  Slow websites cost you money .
+                </span>{' '}
+                We write <span className="text-forge-acc">lean</span> code that
+                loads <span className="text-forge-acc">fast</span>.
               </p>
             </div>
           </div>
@@ -32,11 +35,13 @@ const Ourservices = () => {
               </div>
 
               <h3 className="mb-4 text-xl font-bold leading-tight md:text-2xl">
-                Custom analytics
+                Forged For <span className="text-forge-acc">You</span>
               </h3>
               <p className="text-coolGray-500 font-medium">
-                Our calendar lets you know what is happening with customer and
-                projects so you
+                We send every client a mockup before we start to{' '}
+                <span className="text-forge-acc">ensure</span> that what we
+                build is to your{' '}
+                <span className="text-forge-acc">exact specifications</span>.
               </p>
             </div>
           </div>
@@ -46,11 +51,12 @@ const Ourservices = () => {
                 <GiFurnace className="text-2xl" />
               </div>
               <h3 className="mb-4 text-xl font-bold leading-tight md:text-2xl">
-                Team Management
+                Ad-<span className="text-forge-acc">Free</span>
               </h3>
               <p className="text-coolGray-500 font-medium">
-                A tool that lets you build a dream website even if you know
-                nothing about web design or programming.
+                Some web design agencies slip ads into their client’s websites.
+                Every website we produce is ad-free,{' '}
+                <span className="text-forge-acc">guaranteed</span>.
               </p>
             </div>
           </div>
@@ -62,11 +68,13 @@ const Ourservices = () => {
                 <GiIronHulledWarship className="text-2xl" />
               </div>
               <h3 className="mb-4 text-xl font-bold leading-tight md:text-2xl">
-                Measure your performance
+                Fully <span className="text-forge-acc">Responsive</span>{' '}
+                Experience
               </h3>
               <p className="text-coolGray-500 font-medium">
-                Get a complete sales dashboard in the cloud. See activity,
-                revenue and social metrics all in one place.
+                From phones and tablets to PCs and XL TVs, we ensure your
+                website <span className="text-forge-acc">looks good</span> no
+                matter what screen it’s on.
               </p>
             </div>
           </div>
@@ -77,11 +85,12 @@ const Ourservices = () => {
               </div>
 
               <h3 className="mb-4 text-xl font-bold leading-tight md:text-2xl">
-                Custom analytics
+                <span className="text-forge-acc">Top Notch</span> Support
               </h3>
               <p className="text-coolGray-500 font-medium">
-                Our calendar lets you know what is happening with customer and
-                projects so you
+                We offer short term and longer term maintenance plans for{' '}
+                <span className="text-forge-acc">any and every</span> help or
+                adjustment you might need.
               </p>
             </div>
           </div>
@@ -91,11 +100,16 @@ const Ourservices = () => {
                 <GiSteampunkGoggles className="text-2xl" />
               </div>
               <h3 className="mb-4 text-xl font-bold leading-tight md:text-2xl">
-                Team Management
+                Hyper <span className="text-forge-acc">Secure</span>
               </h3>
               <p className="text-coolGray-500 font-medium">
-                A tool that lets you build a dream website even if you know
-                nothing about web design or programming.
+                We build websites in-line with some of the most{' '}
+                <span className="text-forge-acc">
+                  rigorous security protocols
+                </span>
+                , and will instruct you on how to keep your site{' '}
+                <span className="text-forge-acc">secure</span> and{' '}
+                <span className="text-forge-acc">safe</span> from hackers.
               </p>
             </div>
           </div>

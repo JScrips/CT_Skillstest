@@ -28,7 +28,8 @@ const BenefitContent = () => {
             </h3>
 
             <p className="text-forge-primary">
-              The first steps can seem daunting. We’re here to support you.
+              The first steps can seem daunting. We’re here to{' '}
+              <span className="text-forge-acc">support you</span>.
             </p>
           </div>
 
@@ -42,7 +43,9 @@ const BenefitContent = () => {
             </h3>
 
             <p className="text-forge-primary">
-              We provide a detailed roadmap from concept to completion.
+              We provide a{' '}
+              <span className="text-forge-acc">detailed roadmap</span> from
+              concept to completion.
             </p>
           </div>
 
@@ -56,8 +59,9 @@ const BenefitContent = () => {
             </h3>
 
             <p className="text-forge-primary">
-              We FIRE up the FORGE, providing frequent check-ins/updates on
-              progress
+              We <span className="text-forge-acc">FIRE</span> up the{' '}
+              <span className="text-forge-acc">FORGE</span>, providing frequent
+              check-ins/updates on progress
             </p>
           </div>
 
@@ -70,9 +74,10 @@ const BenefitContent = () => {
               Delivery & Support
             </h3>
 
-            <p className="text-gray-500 dark:text-gray-300">
-              We transfer all associated files to you, and off ongoing technical
-              support packages to suit your business needs.
+            <p className="text-forge-primary">
+              We transfer all associated files to you, and offer{' '}
+              <span className="text-forge-acc">ongoing technical support</span>{' '}
+              packages to suit your business needs.
             </p>
           </div>
         </div>
