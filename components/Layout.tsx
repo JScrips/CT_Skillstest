@@ -14,28 +14,22 @@ import Logostripe from './Logostripe'
 
 const Layout = () => {
   return (
-    <div className="scroll-smooth">
-      <Head>
-        <title>Codeforge Agency</title>
-        <link rel="icon" href="/codeforge-favicon.ico" />
-      </Head>
-      <body className="bg-forge-bg">
-        {/* header  */}
-        <Header />
-        {/*main content*/}
-        <BenefitContent />
-        <Ourservices />
-        <Logostripe />
-        <GeneralContent />
+    <div className="">
+      {/* header  */}
+      <Header />
+      {/*main content*/}
+      <BenefitContent />
+      <Ourservices />
+      <Logostripe />
+      <GeneralContent />
 
-        <CTA />
-        <Credibility />
-        <Testimonials />
-        <Contact />
+      <CTA />
+      <Credibility />
+      <Testimonials />
+      <Contact />
 
-        {/*footer*/}
-        <Footer />
-      </body>
+      {/*footer*/}
+      <Footer />
     </div>
   )
 }

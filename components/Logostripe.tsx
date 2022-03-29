@@ -2,7 +2,7 @@ import React from 'react'
 
 const Logostripe = () => {
   return (
-    <div className="  mx-auto">
+    <div className="  mx-auto bg-forge-bg">
       <div className="skew skew-top ml-for-radius">
         <svg
           className="h-8 w-full text-forge-acc md:h-12 lg:h-20"

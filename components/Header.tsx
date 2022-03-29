@@ -11,7 +11,7 @@ const Header = () => {
   const status = isOpen ? 'block' : 'hidden'
 
   return (
-    <section id="home" className=" scroll-smooth bg-forge-bg">
+    <section id="home" className=" bg-forge-bg">
       {/* ======================================BEGIN NAVIGATION BAR====================================  */}
       <nav className="container mx-auto bg-forge-bg p-4 lg:flex lg:items-center lg:justify-between">
         <div className="flex items-center justify-between">
@@ -23,9 +23,9 @@ const Header = () => {
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
-                width="600.000000pt"
+                width="300.000000pt"
                 height="50.000000pt"
-                viewBox="0 0 600.000000 50.000000"
+                viewBox="0 0 300.000000 50.000000"
                 preserveAspectRatio="xMidYMid meet"
                 className=" text-forge-primary hover:text-forge-acc"
               >

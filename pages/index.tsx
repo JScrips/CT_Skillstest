@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 
 const Home: NextPage = () => {
   return (
-    <div className="scroll-smooth">
+    <div className="">
       {' '}
       <Layout />{' '}
     </div>
