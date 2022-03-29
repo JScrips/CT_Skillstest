@@ -14,7 +14,7 @@ import Logostripe from './Logostripe'
 
 const Layout = () => {
   return (
-    <div>
+    <div className="scroll-smooth">
       <Head>
         <title>Codeforge Agency</title>
         <link rel="icon" href="/codeforge-favicon.ico" />

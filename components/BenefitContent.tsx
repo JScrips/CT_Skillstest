@@ -6,7 +6,10 @@ import { RiNumber4 } from 'react-icons/ri'
 
 const BenefitContent = () => {
   return (
-    <section id="benefit" className="bg-forge-bg pb-20 text-forge-primary">
+    <section
+      id="ourprocess"
+      className="scroll-smooth bg-forge-bg pb-20 text-forge-primary"
+    >
       <div className="container mx-auto px-6 py-10  text-center">
         <h2 className=" text-center text-3xl  capitalize text-forge-primary lg:text-4xl">
           <span className="text-forge-acc">STRESS-FREE</span> WEB DEVELOPMENT
