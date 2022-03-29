@@ -23,8 +23,8 @@ const Header = () => {
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
-                width="300.000000pt"
-                height="50.000000pt"
+                width="300.000000"
+                height="50.000000"
                 viewBox="0 0 300.000000 50.000000"
                 preserveAspectRatio="xMidYMid meet"
                 className=" text-forge-primary hover:text-forge-acc"
