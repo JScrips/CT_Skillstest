@@ -174,7 +174,7 @@ m180 -29 c35 -68 13 -148 -41 -148 -25 0 -60 34 -50 49 7 12 46 15 43 4 -2 -5
             className="hover:text-forge-acc hover:underline lg:mx-6"
             href="#ourprocess"
           >
-            Our Process
+            Process
           </a>
           <a
             className="hover:text-forge-acc  hover:underline lg:mx-6"

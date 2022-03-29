@@ -27,9 +27,11 @@ const Testimonials = () => {
               </svg>
             </button>
             <div className="flex w-full flex-wrap rounded bg-forge-bg opacity-40 shadow hover:opacity-100">
-              <div className="w-full border-r py-10 text-center lg:w-1/3">
-                <span className="text-5xl font-bold lg:text-6xl">5.0</span>
-                <div className="mb-6 flex justify-center text-yellow-600 lg:mb-12">
+              <div className="w-full py-10 text-center md:border-r lg:w-1/3">
+                <span className="text-5xl font-bold text-forge-primary lg:text-6xl">
+                  5.0
+                </span>
+                <div className="mb-6 flex justify-center text-forge-acc lg:mb-12">
                   <svg
                     className="h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
@@ -70,30 +72,27 @@ const Testimonials = () => {
                   >
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
                   </svg>
-                </div>
-                <div>
-                  <img
-                    className="mx-auto block"
-                    src="atis-assets/social/clutch-logo.png"
-                    alt=""
-                  />
                 </div>
               </div>
               <div className=" flex w-full flex-col items-center py-10 px-6 lg:w-2/3">
                 <img
-                  className="mb-10 h-20 w-20 rounded-xl border-2 border-white"
-                  src="/TB.jpg"
+                  className="mb-10 h-32 w-32 rounded-xl border-2 border-white"
+                  src="/testimonialpic1.jpg"
                   alt=""
                 />
 
-                <p className="mb-10 text-xl leading-loose text-gray-500 lg:text-2xl">
-                  Fantastic
+                <p className="mb-10 text-xl leading-loose text-forge-primary lg:text-2xl">
+                  Fantastic! I was a little reluctant at first. With how busy I
+                  was, I needed help, but couldn't afford a risk. CodeForge went
+                  above and beyond to bring my vision to life and make me
+                  comfortable! I loved the outcome, and I would highly recommend
+                  them!
                 </p>
 
                 <h4 className="font-heading text-2xl font-bold">
                   Alice Bradley
                 </h4>
-                <p className="text-gray-500">Backend Developer</p>
+                <p className="text-forge-acc">Backend Developer</p>
               </div>
             </div>
 
