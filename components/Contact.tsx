@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className=" bg-forge-bg">
+    <section id="contact" className=" bg-forge-bg">
       <div className="bg-coolGray-900 py-20">
         <div className="container mx-auto px-4">
           <div className="lg:mb-18 mb-10 flex flex-wrap items-center justify-between">

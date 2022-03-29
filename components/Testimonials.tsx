@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 const Testimonials = () => {
   return (
-    <section className="">
+    <section id="testimonials" className="">
       <div className="skew skew-top mr-for-radius"></div>
       <div className="skew skew-top ml-for-radius"></div>
       <div className="radius-for-skewed bg-forge-bg py-20">

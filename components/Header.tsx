@@ -178,21 +178,27 @@ m180 -29 c35 -68 13 -148 -41 -148 -25 0 -60 34 -50 49 7 12 46 15 43 4 -2 -5
           </a>
           <a
             className="hover:text-forge-acc  hover:underline lg:mx-6"
-            href="#team"
+            href="#services"
           >
-            Blacksmiths
+            Services
           </a>
           <a
             className="hover:text-forge-acc  hover:underline lg:mx-6"
-            href="#benefit"
+            href="#portfolio"
           >
             Portfolio
           </a>
           <a
-            className="hover:text-forge-acc  hover:underline lg:mx-6"
+            className="rounded-xl hover:text-forge-acc hover:underline lg:mx-6"
+            href="#testimonials"
+          >
+            Reviews
+          </a>
+          <a
+            className="rounded-xl  bg-forge-primary p-2 text-forge-acc hover:text-forge-acc hover:underline lg:mx-6"
             href="#contact"
           >
-            Contact
+            Hire Us!
           </a>
         </div>
       </nav>
@@ -208,9 +214,11 @@ m180 -29 c35 -68 13 -148 -41 -148 -25 0 -60 34 -50 49 7 12 46 15 43 4 -2 -5
           <br /> You don't have to
           <span className="text-forge-acc">.</span>
         </span>
-        <button className="relative z-30 rounded-md bg-forge-acc px-6 py-4 text-lg font-semibold text-forge-primary opacity-50 ring-1 ring-white hover:opacity-100">
-          Forge My Site
-        </button>
+        <a href="#contact">
+          <button className="relative z-30 rounded-md bg-forge-acc px-6 py-4 text-lg font-semibold text-forge-primary opacity-50 ring-1 ring-white hover:opacity-100">
+            Forge My Site
+          </button>
+        </a>
 
         <video
           autoPlay

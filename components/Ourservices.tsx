@@ -8,7 +8,10 @@ import { GiSteampunkGoggles } from 'react-icons/gi'
 
 const Ourservices = () => {
   return (
-    <section className="overflow-hidden bg-forge-bg py-10 md:pb-28">
+    <section
+      id="services"
+      className="overflow-hidden bg-forge-bg py-10 md:pb-28"
+    >
       <div className="container mx-auto px-4">
         <h2 className="pb-10 text-center ">
           <span className="text-5xl text-forge-acc">Solution</span>{' '}
