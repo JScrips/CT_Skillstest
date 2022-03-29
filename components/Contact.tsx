@@ -5,10 +5,10 @@ const Contact = () => {
     <section className="bg-forge-bg">
       <div className="bg-coolGray-900 py-20">
         <div className="container mx-auto px-4">
-          <div className="lg:mb-18 mb-24 flex flex-wrap items-center justify-between">
-            <div className="mb-10 w-full lg:mb-0 lg:w-1/2">
-              <h3 className="mb-4 text-4xl font-bold leading-tight tracking-tighter text-white md:text-5xl">
-                Let’s Forge
+          <div className="lg:mb-18 mb-10 flex flex-wrap items-center justify-between">
+            <div className=" w-full lg:mb-0 lg:w-1/2">
+              <h3 className=" text-4xl font-bold leading-tight tracking-tighter text-white md:text-5xl">
+                Let's Work!
               </h3>
             </div>
           </div>
@@ -64,7 +64,7 @@ const Contact = () => {
                       Phone
                     </h3>
                     <p className="text-lg font-medium text-forge-acc md:text-xl">
-                      + 7-843-672-431
+                      + 1 (323) 687-7393
                     </p>
                   </div>
                 </div>
@@ -89,10 +89,10 @@ const Contact = () => {
                       Office
                     </h3>
                     <p className="text-lg font-medium text-forge-acc md:text-xl">
-                      1686, Geraldine Lane
+                      11501 Braesview
                     </p>
                     <p className="text-lg font-medium text-forge-acc md:text-xl">
-                      New York, NY 10013
+                      San Antonio, TX 78213
                     </p>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ const Contact = () => {
                     </h3>
                     <a
                       className="mr-8 inline-block text-forge-acc hover:text-forge-primary"
-                      href="#"
+                      href="https://www.facebook.com/profile.php?id=100079092941482"
                     >
                       <svg
                         width="10"
@@ -137,7 +137,7 @@ const Contact = () => {
                     </a>
                     <a
                       className="mr-8 inline-block text-forge-acc hover:text-forge-primary"
-                      href="#"
+                      href="https://twitter.com/CodeForgeAgency"
                     >
                       <svg
                         width="19"
@@ -156,7 +156,7 @@ const Contact = () => {
                     </a>
                     <a
                       className="mr-8 inline-block text-forge-acc hover:text-forge-primary"
-                      href="#"
+                      href="https://www.instagram.com/codeforge.agency/"
                     >
                       <svg
                         width="20"
@@ -219,7 +219,7 @@ const Contact = () => {
                     <input
                       className="border-coolGray-200 text-coolGray-500 block w-full appearance-none rounded-lg border py-2 px-3 leading-6 shadow-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
                       type="email"
-                      placeholder="dev@shuffle.dev"
+                      placeholder="HireUs@email.dev"
                     />
                   </div>
                   <div className="mb-6">
@@ -228,7 +228,7 @@ const Contact = () => {
                     </label>
                     <textarea
                       className="border-coolGray-200 text-coolGray-500 focus:shadow-outline placeholder-coolGray-200 block h-32 w-full resize-none appearance-none rounded-lg border py-2 px-3 leading-6 shadow-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 md:h-52"
-                      placeholder="Your message..."
+                      placeholder="I have an idea for a project and I want to discuss it with you."
                     ></textarea>
                   </div>
                   <button className="block w-full rounded-md bg-forge-primary bg-opacity-10 py-4 px-6 text-center text-lg font-medium leading-6 text-forge-acc shadow-sm hover:bg-forge-primary focus:ring-2 focus:ring-green-500 focus:ring-opacity-50">

@@ -8,7 +8,7 @@ const BenefitContent = () => {
   return (
     <section id="benefit" className="bg-forge-bg pb-20 text-forge-primary">
       <div className="container mx-auto px-6 py-10 text-center">
-        <h2 className=" text-center text-3xl  capitalize text-gray-800 dark:text-white lg:text-4xl">
+        <h2 className=" text-center text-3xl  capitalize text-forge-primary lg:text-4xl">
           <span className="text-forge-acc">STRESS-FREE</span> WEB DEVELOPMENT
         </h2>
         <span className="text-sm text-white">
@@ -23,11 +23,11 @@ const BenefitContent = () => {
               <RiNumber1 className="text-forge-acc" />
             </span>
 
-            <h3 className="text-2xl font-semibold capitalize text-gray-700 dark:text-white">
+            <h3 className="text-2xl font-semibold capitalize text-forge-primary">
               Consultation
             </h3>
 
-            <p className="text-gray-500 dark:text-gray-300">
+            <p className="text-forge-primary">
               The first steps can seem daunting. We’re here to support you.
             </p>
           </div>
@@ -41,7 +41,7 @@ const BenefitContent = () => {
               Proposal and Contract
             </h3>
 
-            <p className="text-gray-500 dark:text-gray-300">
+            <p className="text-forge-primary">
               We provide a detailed roadmap from concept to completion.
             </p>
           </div>
@@ -51,11 +51,11 @@ const BenefitContent = () => {
               <RiNumber3 className="text-forge-acc" />
             </span>
 
-            <h3 className="text-2xl font-semibold capitalize text-gray-700 dark:text-white">
+            <h3 className="text-2xl font-semibold capitalize text-forge-primary">
               Design, Develop, & Deploy
             </h3>
 
-            <p className="text-gray-500 dark:text-gray-300">
+            <p className="text-forge-primary">
               We FIRE up the FORGE, providing frequent check-ins/updates on
               progress
             </p>
@@ -66,7 +66,7 @@ const BenefitContent = () => {
               <RiNumber4 className="text-forge-acc" />
             </span>
 
-            <h3 className="text-2xl font-semibold capitalize text-gray-700 dark:text-white">
+            <h3 className="text-2xl font-semibold capitalize text-forge-primary">
               Delivery & Support
             </h3>
 

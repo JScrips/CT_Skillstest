@@ -11,7 +11,7 @@ const GeneralContent = () => {
         <div className="lg:flex lg:items-center">
           <div className="w-full space-y-12 lg:w-1/2 ">
             <div>
-              <h1 className="text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl">
+              <h1 className="text-3xl font-semibold capitalize text-forge-primary lg:text-4xl">
                 At CodeForge, <br /> Trust is Earned{' '}
                 <span className="text-forge-acc">100%</span>
               </h1>
@@ -29,7 +29,7 @@ const GeneralContent = () => {
               </span>
 
               <div className="mt-4 md:mx-4 md:mt-0">
-                <h1 className="pb-2 text-2xl font-semibold capitalize text-gray-700 dark:text-white">
+                <h1 className="pb-2 text-2xl font-semibold capitalize text-forge-primary">
                   With Business, There's only{' '}
                   <span className="text-forge-acc">One</span>.
                 </h1>
@@ -38,7 +38,7 @@ const GeneralContent = () => {
                   <span className="text-forge-acc">One</span> impression,{' '}
                   <span className=" text-forge-acc">One</span> solution.
                 </p>
-                <p className="mt-3 text-gray-500 dark:text-gray-300">
+                <p className="mt-3 text-forge-primary">
                   We’re here to help you forge an experience that will make you
                   stand out in the minds of your customers as the only{' '}
                   <span className="text-forge-acc">one</span>.
@@ -52,11 +52,11 @@ const GeneralContent = () => {
               </span>
 
               <div className="mt-4 md:mx-4 md:mt-0">
-                <h1 className="text-2xl font-semibold capitalize text-gray-700 dark:text-white">
+                <h1 className="text-2xl font-semibold capitalize text-forge-primary">
                   <span className="text-forge-acc">Zero</span> Configurations
                 </h1>
 
-                <p className="mt-3 text-gray-500 dark:text-gray-300">
+                <p className="mt-3 text-forge-primary">
                   You came to us because you're busy. We understand that. <br />
                   <br /> You already run your world. Let us{' '}
                   <span className="text-forge-acc">Grow</span> your world.{' '}
@@ -76,12 +76,12 @@ const GeneralContent = () => {
               </span>
 
               <div className="mt-4 md:mx-4 md:mt-0">
-                <h1 className="text-2xl font-semibold capitalize text-gray-700 dark:text-white">
+                <h1 className="text-2xl font-semibold capitalize text-forge-primary">
                   <span className="text-forge-acc">Zero</span> Tolerance for
                   Failure
                 </h1>
 
-                <p className="mt-3 text-gray-500 dark:text-gray-300">
+                <p className="mt-3 text-forge-primary">
                   Working with CodeForge is{' '}
                   <span className="text-forge-acc">easy</span>. <br />
                   <br />
@@ -108,12 +108,12 @@ const GeneralContent = () => {
             </button>
           </a>
         </div>
-        <hr className="my-12 border-gray-200 dark:border-gray-700" />
+        <hr className="my-12 border-gray-700" />
 
         <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
           <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1">
             <svg
-              className="h-12 fill-current text-gray-500 dark:text-gray-300"
+              className="h-12 fill-current text-forge-primary"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 266 100"
             >
@@ -124,7 +124,7 @@ const GeneralContent = () => {
 
           <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1">
             <svg
-              className="h-10 fill-current text-gray-500 dark:text-gray-300"
+              className="h-10 fill-current text-forge-primary"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 316 60"
             >
@@ -148,7 +148,7 @@ const GeneralContent = () => {
 
           <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1">
             <svg
-              className="mt-2 h-8 fill-current text-gray-500 dark:text-gray-300"
+              className="mt-2 h-8 fill-current text-forge-primary"
               viewBox="0 0 398 120"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -161,7 +161,7 @@ const GeneralContent = () => {
 
           <div className="col-span-1 flex items-center justify-center md:col-span-3 lg:col-span-1">
             <svg
-              className="mt-1 h-5 fill-current text-gray-500 dark:text-gray-300"
+              className="mt-1 h-5 fill-current text-forge-primary"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 278.7 36.3"
             >
@@ -176,7 +176,7 @@ const GeneralContent = () => {
 
           <div className="col-span-2 flex items-center justify-center md:col-span-3 lg:col-span-1">
             <svg
-              className="h-8 fill-current text-gray-500 dark:text-gray-300"
+              className="h-8 fill-current text-forge-primary"
               viewBox="0 0 2270 546"
               xmlns="http://www.w3.org/2000/svg"
             >

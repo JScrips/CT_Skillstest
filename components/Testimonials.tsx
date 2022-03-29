@@ -101,7 +101,7 @@ const Testimonials = () => {
 
             <div className="mb-10 pt-2 text-center lg:hidden">
               {/* LEFT BUTTON */}
-              <button className="mr-6 rounded-full bg-white bg-opacity-20 p-4 text-white shadow-md">
+              <button className="mr-6 rounded-full bg-white bg-opacity-5 p-4 text-white shadow-md">
                 <svg
                   className="h-6 w-6"
                   xmlns="http://www.w3.org/2000/svg"
