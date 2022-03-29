@@ -80,7 +80,7 @@ const Header = () => {
         <span className="relative z-30 pb-4 text-6xl font-semibold text-forge-primary opacity-50">
           We
           <span className="text-forge-acc"> Iron Out</span> the{' '}
-          <span className="text-forge-acc">Kinks</span>
+          <span className="text-forge-acc">Kinks</span>.
           <br /> You don't have to
           <span className="text-forge-acc">.</span>
         </span>
