@@ -10,6 +10,7 @@ import Head from 'next/head'
 import Testimonials from './Testimonials'
 import Ourservices from './Ourservices'
 import Contact from './Contact'
+import Logostripe from './Logostripe'
 
 const Layout = () => {
   return (
@@ -22,9 +23,11 @@ const Layout = () => {
         {/* header  */}
         <Header />
         {/*main content*/}
-        <GeneralContent />
-        <Ourservices />
         <BenefitContent />
+        <Ourservices />
+        <Logostripe />
+        <GeneralContent />
+
         <CTA />
         <Credibility />
         <Testimonials />

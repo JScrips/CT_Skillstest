@@ -9,7 +9,6 @@ const Credibility = () => {
 
   return (
     <section className="bg-forge-bg">
-      <div className="skew skew-top mr-for-radius"></div>
       <div className="skew skew-top ml-for-radius">
         <svg
           className="h-8 w-full text-orange-500 md:h-12 lg:h-20"
@@ -19,7 +18,7 @@ const Credibility = () => {
           <polygon fill="currentColor" points="0 10 10 0 10 10"></polygon>
         </svg>
       </div>
-      <div className="radius-for-skewed bg-orange-500 py-2 px-2">
+      <div className="radius-for-skewed bg-forge-acc py-2 px-2">
         <div className="mx-auto mt-20 max-w-screen-xl"></div>
 
         <div className="container mx-auto px-4 pt-8">
