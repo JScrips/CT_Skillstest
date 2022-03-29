@@ -199,7 +199,7 @@ m180 -29 c35 -68 13 -148 -41 -148 -25 0 -60 34 -50 49 7 12 46 15 43 4 -2 -5
           </div>
           <hr className="mb-4 basis-full border-gray-700 lg:hidden" />
           <a
-            className="lg:${status} basis-full  rounded-xl bg-forge-primary p-2 text-center  text-forge-acc hover:underline focus:bg-forge-acc focus:text-forge-primary lg:mx-6"
+            className="basis-full rounded-xl  bg-forge-primary p-2 text-center text-forge-acc  hover:underline focus:bg-forge-acc focus:text-forge-primary lg:mx-6 "
             href="#contact"
           >
             Hire Us!

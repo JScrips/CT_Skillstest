@@ -89,7 +89,7 @@ const Testimonials = () => {
                   them!
                 </p>
 
-                <h4 className="font-heading text-2xl font-bold">
+                <h4 className="font-heading text-2xl font-bold text-forge-primary">
                   Alice Bradley
                 </h4>
                 <p className="text-forge-acc">Backend Developer</p>

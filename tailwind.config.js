@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'forge-bg': '#222a2b',
+        'forge-bg': '#0f0f0f',
         'forge-primary': '#f9f7f6',
         'forge-acc': '#f77c32',
       },
