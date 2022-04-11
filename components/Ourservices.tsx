@@ -32,10 +32,12 @@ const Ourservices = () => {
               </h3>
               <p className="text-coolGray-500 font-medium">
                 <span className="underline decoration-forge-acc">
-                  Slow websites cost you money .
+                  Slow websites lose you money
                 </span>{' '}
-                We write <span className="text-forge-acc">lean</span> code that
-                loads <span className="text-forge-acc">fast</span>.
+                through time. We write{' '}
+                <span className="text-forge-acc">lean</span> code that loads{' '}
+                <span className="text-forge-acc">fast</span> and{' '}
+                <span className="text-forge-acc">efficient</span>.
               </p>
             </div>
           </div>
@@ -49,10 +51,12 @@ const Ourservices = () => {
                 Forged For <span className="text-forge-acc">You</span>
               </h3>
               <p className="text-coolGray-500 font-medium">
-                We send every client a mockup before we start to{' '}
-                <span className="text-forge-acc">ensure</span> that what we
+                We illustrate the mockup with the client beforehand,{' '}
+                <span className="text-forge-acc">ensuring</span> that what we
                 build is to your{' '}
-                <span className="text-forge-acc">exact specifications</span>.
+                <span className="text-forge-acc">exact specifications</span>{' '}
+                {''}
+                the first time .
               </p>
             </div>
           </div>
@@ -65,7 +69,7 @@ const Ourservices = () => {
                 Ad-<span className="text-forge-acc">Free</span>
               </h3>
               <p className="text-coolGray-500 font-medium">
-                Some web design agencies slip ads into their client’s websites.
+                Some web design agencies place ads into their client’s websites.
                 Every website we produce is ad-free,{' '}
                 <span className="text-forge-acc">guaranteed</span>.
               </p>
@@ -85,7 +89,7 @@ const Ourservices = () => {
               <p className="text-coolGray-500 font-medium">
                 From phones and tablets to PCs and XL TVs, we ensure your
                 website <span className="text-forge-acc">looks good</span> no
-                matter what screen it’s on.
+                matter which screen it’s on.
               </p>
             </div>
           </div>
